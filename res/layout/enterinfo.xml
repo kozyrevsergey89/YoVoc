@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+    <include layout="@layout/actionbar2" />
+    <TextView android:id="@+id/entertext" android:text="Enter termin:" android:layout_width="wrap_content" android:layout_margin="10dp" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/enteredit" android:hint="Write termin" android:layout_margin="10dp" android:layout_width="250dp" android:layout_height="40dp"/>
+    <LinearLayout  android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80dp">
+        <Button android:id="@+id/enterfromcam" android:text="Cam" android:layout_width="70dp" android:layout_height="50dp" android:layout_margin="10dp" android:layout_gravity="center_vertical"/>
+        <Button android:id="@+id/enterfromsd" android:text="SD" android:layout_width="70dp" android:layout_margin="10dp" android:layout_height="50dp" android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <TextView android:id="@+id/entertextdesc" android:text="Enter description:" android:layout_margin="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/entereditdesc" android:hint="Write description" android:layout_margin="10dp" android:layout_width="fill_parent" android:layout_height="120dp" android:gravity="fill_horizontal"/>
+    <Button android:id="@+id/entersubmit" android:text="Submit" android:layout_width="70dp" android:layout_height="50dp" android:layout_margin="10dp" android:layout_gravity="center_vertical"/>
+    
+    
+    
+</LinearLayout>

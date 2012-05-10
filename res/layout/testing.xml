@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <include layout="@layout/actionbar2" />
+
+    <TextView
+        android:id="@+id/testingtext"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp" />
+
+    <RadioGroup
+        android:id="@+id/testradiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+        android:layout_margin="10dp"
+        android:layout_weight="3.47" >
+
+        <RadioButton
+            android:id="@+id/testradio1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="Answer1" />
+
+        <RadioButton
+            android:id="@+id/testradio2"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="Answer2" />
+
+        <RadioButton
+            android:id="@+id/testradio3"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="Answer3" />
+
+        <RadioButton
+            android:id="@+id/testradio4"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="Answer4" />
+    </RadioGroup>
+    <LinearLayout   android:orientation="horizontal" 
+        			android:layout_width="fill_parent"
+    				android:layout_height="wrap_content">
+        <Button android:id="@+id/testcheck"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="Check" />
+        <Button android:id="@+id/testsubmit"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="Submit" />
+        
+    </LinearLayout>
+    
+        
+
+</LinearLayout>
